@@ -6,7 +6,7 @@ roflApp.controller('indexController', function indexController($scope, $http) {
 		console.log($scope.user);
 		$http.post('/HomeChore-web/rest/login', $scope.user).
 		success(function(data, status, headers, config) {
-			console.log(data);
+			console.log('data', data);
 			window.location.replace("/HomeChore-web/app/");
 		}).
 		error(function(data, status, headers, config) {
