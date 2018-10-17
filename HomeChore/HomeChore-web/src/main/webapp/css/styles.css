@@ -1,0 +1,207 @@
+.taskContainer {
+	margin: 5px;
+	position: relative;
+	float: left;
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 125px;
+	background-color: OliveDrab;
+}
+
+.task {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: OliveDrab;
+}
+
+.taskActions {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	clear: both;
+	display: block;
+	width: 35%;
+	height: 100%;
+	z-index: 2;
+	background-color: Olive;
+	-webkit-transition: color 0.6s, background-color 0.3s;
+	-moz-transition: color 0.6s, background-color 0.3s;
+	-ms-transition: color 0.6s, background-color 0.3s;
+	transition: color 0.6s, background-color 0.3s;
+}
+
+.taskElement {
+	font-size: 4em;
+	font-family: Impact;
+	color: Ivory;
+	text-align: right;
+	float: right;
+}
+
+.task-complete {
+	background: #f3f3f3;
+	color: #777;
+	label
+	{
+	text-decoration
+	:
+	line-through;
+}
+
+}
+.animate-show-hide.ng-hide {
+	opacity: 0;
+}
+
+.toolbar {
+	float: right;
+	clear: both;
+	display: block;
+	padding: 10px;
+}
+
+.animate-show-hide.ng-hide-add, .animate-show-hide.ng-hide-remove {
+	transition: all ease-out 0.5s;
+}
+
+.onoffswitch {
+	position: relative;
+	width: 200px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+	display: none;
+}
+
+.onoffswitch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #999999;
+	border-radius: 50px;
+}
+
+.onoffswitch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 51px;
+	padding: 0;
+	line-height: 51px;
+	font-size: 18px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+	content: "TEHTY";
+	padding-left: 12px;
+	background-color: #218A1D;
+	color: #FFFFFF;
+}
+
+.onoffswitch-inner:after {
+	content: "TEKEMÄTTÄ";
+	padding-right: 12px;
+	background-color: #EEEEEE;
+	color: #999999;
+	text-align: right;
+}
+
+.onoffswitch-switch {
+	display: block;
+	width: 46px;
+	height: 50px;
+	margin: 2.5px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 115px;
+	border: 2px solid #999999;
+	border-radius: 50px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-inner {
+	margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked+.onoffswitch-label .onoffswitch-switch {
+	right: 0px;
+}
+
+div.container3 {
+	height: 10em;
+	position: relative
+} /* 1 */
+div.container3 p {
+	margin: 0;
+	position: absolute; /* 2 */
+	top: 50%; /* 3 */
+	transform: translate(0, -50%)
+} /* 4 */
+.animate-show-hide.ng-hide {
+	opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add, .animate-show-hide.ng-hide-remove {
+	transition: all linear 1s;
+}
+
+.loginForm {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.loginForm>form>input {
+	width: 190px;
+	height: 41px;
+	font-size: 16px;
+	padding-left: 5px;
+	margin: 0 auto;
+	display: block;
+}
+
+.loginForm>form>button {
+	clear: both;
+	width: 200px;
+	margin-top: 5px;
+}
+
+.floatLeftClearBoth {
+	float: left;
+	clear: both;
+}
+
+.floatRightClearBoth {
+	float: right;
+	clear: both;
+}
+
+.normalText { 
+      font-size: 2em; 
+   }
